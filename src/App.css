@@ -1,0 +1,102 @@
+.App {
+  /* text-align: center; */
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ADD8E6;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  color: black;
+}
+
+.card-section {
+  
+}
+
+.row{
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+}
+
+
+@media (max-width: 700px) {
+  .filter-section {
+    width: 100%;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+  .filter-section {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .filter-section {
+    width: 20%;
+  }
+}
+
+@media (max-width: 700px) {
+  .rocket-section {
+    width: 100%;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+  .rocket-section {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .rocket-section {
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  .column-rocket {
+    width:100%;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+  .column-rocket {
+    width:50%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .column-rocket {
+    width:25%;
+  }
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
